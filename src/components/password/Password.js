@@ -16,7 +16,7 @@ function Password({ label, placeholder }) {
           className="w-72 sm:w-96  h-10 border color  pl-4 rounded-lg"
           type={!eye ? "password" : "text"}
         />
-        <div className="absolute w-fit pr-2 pt-2 h-full right-0 top-0">
+        <div className="absolute  pr-2 pt-2  right-0 top-0">
           {eye && (
             <FontAwesomeIcon
               onClick={() => setEye(false)}

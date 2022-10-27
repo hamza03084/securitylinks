@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function Verify() {
   const navigate = useNavigate();
   const routeChange = () => {
-    navigate("/code");
+    navigate("/reset");
   };
 
   return (
